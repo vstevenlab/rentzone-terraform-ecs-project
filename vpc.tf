@@ -103,7 +103,7 @@ resource "aws_subnet" "private_data_subnet_az1" {
   map_public_ip_on_launch  = false
 
   tags      = {
-    Name    = "${var.project_name}-${var.environment}-private app az1"
+    Name    = "${var.project_name}-${var.environment}-private data az1"
   }
 }
 
