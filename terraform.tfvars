@@ -24,3 +24,7 @@ multi_az_deployment          = "false"
 #ACM Variables
 domain_name       = "steevynote.com"
 alternative_names = "*.steevynote.com"
+
+#s3 variables
+env_file_bucket_name = "stevennote419"
+env_file_name        = "rentzone.env"
