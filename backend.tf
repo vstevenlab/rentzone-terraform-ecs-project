@@ -4,7 +4,7 @@ terraform {
     bucket         = "terraform-s3-labsteven"
     key            = "rentzone-ecs/terraform.tfstate"
     region         = "us-east-1"
-    profile        = "terraform-user"
     dynamodb_table = "terraform-state-lock"
+    profile        = "terraform-user"
   }
 }
