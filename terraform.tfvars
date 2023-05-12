@@ -13,11 +13,11 @@ private_data_subnet_az1_cidr = "10.0.4.0/24"
 private_data_subnet_az2_cidr = "10.0.5.0/24"
 
 #Security group variables
-ssh_location = "174.206.230.123/32"
+ssh_location = "0.0.0.0/0"
 
 #rds variables
-database_snapshot_identifier = "rentzone-ecs-final-snapshot"
-database_instance_identifier = "database-2"
+database_snapshot_identifier = "dev-rds-snapshot"
+database_instance_identifier = "database-1"
 database_instance_class      = "db.t2.micro"
 multi_az_deployment          = "false"
 
@@ -29,6 +29,6 @@ alternative_names = "*.steevynote.com"
 env_file_bucket_name = "stevennote419"
 env_file_name        = "rentzone.env"
 
-#esc variables
+#ecs variables
 architecture    = "X86_64"
-container_image = ""
+container_image = "981883748691.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"

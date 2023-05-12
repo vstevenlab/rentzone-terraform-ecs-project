@@ -108,7 +108,7 @@ variable "env_file_name" {
   type        = string
 }
 
-#esc variables
+#ecs variables
 variable "architecture" {
   description = "ecs cpu architecture"
   type        = string
