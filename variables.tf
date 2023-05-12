@@ -118,3 +118,8 @@ variable "container_image" {
   description = "container_image ui"
   type        = string
 }
+#route 53 variable
+variable "record_name" {
+  description = "sub domain name"
+  type        = string
+}
